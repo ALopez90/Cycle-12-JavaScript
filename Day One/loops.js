@@ -69,7 +69,6 @@ for (let l = 0; l < 4; l++) {
     console.log(genre);
 };
 
-
 // Example: Print out Country, Techno Country, Midwest Emo
 for (let z = 4; z < 7; z++) {
     let genre = musicGenres[z];
