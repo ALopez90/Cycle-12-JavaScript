@@ -34,7 +34,7 @@ let guests = [{
     smallDessert: "Cheesecake" // randomize
 };
 
-// SOLUTION (without the extra challenge)
+// REVIEW SOLUTION (without the extra challenge)
 let guests = [{
             firstName: "Sam",
             lastName: "Thing",

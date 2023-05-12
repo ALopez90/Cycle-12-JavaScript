@@ -1,8 +1,4 @@
 /**
- * Loops! A basic overview on loops for JavaScript!
- */
-
-/**
  * Definitions to keep in mind:
  * 
  * initializer - the initial value to use against the condition.
@@ -11,7 +7,7 @@
  */
 
 /**
- * While Loops
+ * NOTE While Loops
  */
 let int1 = 5; // initializer - starting value!
 
@@ -29,7 +25,44 @@ while (i <= 5) {
 // Prints out: 0,1,2,4,5
 
 /**
- * For Loops
+ * NOTE Do... While Loops
+ * [Did not go over in class]
+ * Another version of the while loop, however it checks the condition at the end of each loop instead of the beginning. Also, it will always loop the chunk of code once before checking the condition. If it's true, it will continue looping.
+ */
+
+// Syntax:
+let l = 0; // initializer
+
+do {
+    // some code block
+    l++; // iteration -- adds 1 to the current value
+}
+while (condition) //condition
+
+
+// Example: Print out a range of numbers
+// True/Success
+let m = 1; // initializer
+
+do {
+    console.log("Something: " + m);
+
+    m++; // iteration -- adds 1 to the current value
+}
+while (m <= 5); // condition
+
+// False/Fails
+let n = 6; // initializer
+
+do {
+    console.log("Number: " + n);
+
+    n++; // iteration -- adds 1 to the current value
+}
+while (n <= 5); // condition
+
+/**
+ * NOTE For Loops
  */
 for (intializer; condition; iteration) {
     // run some code

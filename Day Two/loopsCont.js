@@ -1,6 +1,6 @@
 /**
  * REVIEW!
- * For Loop Example
+ * NOTE For Loop Example
  * Print out a range of numbers going from 0-10
  */
 for (let i = 0; i < 11; i++) {
@@ -8,7 +8,7 @@ for (let i = 0; i < 11; i++) {
 };
 
 /**
- * For... Of Loops
+ * NOTE For... Of Loops
  * Loops that you can use with strings and arrays. DOES NOT work with objects.
  */
 // Format:
@@ -70,7 +70,7 @@ for (let pet of arr1) {
 console.log(arr2);
 
 /**
- * For... In Loops
+ * NOTE For... In Loops
  * Used for objects. DO NOT USE WITH ARRAYS IF THE INDEXING IS IMPORTANT! It ignores index specific order
  */
 // Format:
@@ -101,4 +101,63 @@ for (let val in obj2) {
     // obj2[val] = obj2[species] = "Crusty White Dog"
     // etc.
     console.log(obj2[val]);
+};
+
+/**
+ * NOTE Loop Control
+ * [Didn't go over this in class]
+ * How to stop and continue loops
+ */
+
+/**
+ * NOTE "Continue" 
+ * It's a great way to skip a section of the loop and keep going!
+ */
+
+// Example: Working with integers.
+for (let r = 0; r < 8; r++) {
+    if (r == 4) {
+        continue; // skips the value 4
+    } else {
+        console.log(r);
+    }
+};
+
+// Example: Loop through an array of strings.
+let veggies = ["Broccoli", "Cauliflower", "Carrots", "Beets", "Yams", "Potatos"];
+
+for (let v = 0; v < veggies.length; v++) {
+    // Will ignore all elements that does not equal to "Beets"
+    if (veggies[v] !== "Beets") {
+        continue;
+    } else {
+        console.log(veggies[v]);
+    }
+};
+
+/**
+ * NOTE "Break"
+ * The best way to end the loop!
+ */
+// Example: Working with integers.
+for (let x = 0; x <= 10; x++) {
+    // Will stop the loop completely once it reaches 7
+    if (x == 7) {
+        break;
+    } else {
+        console.log(x);
+    }
+};
+
+// Example Two: Working with an array of strings.
+let veggies = ["Broccoli", "Cauliflower", "Carrots", "Beets", "Yams", "Potatos"];
+
+for (let n = 0; n < veggies.length; n++) {
+    // Will print every element until it reaches "Beets" and then it'll stop completely
+    if (veggies[n] == "Beets") {
+        break;
+        console.log("LET ME IN!!!") // anything after the break will never occur!
+    } else {
+        console.log(veggies[n]);
+    }
 };
