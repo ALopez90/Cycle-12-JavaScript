@@ -66,7 +66,7 @@ The "For... In" loop is used to iterate through the properties of an object or e
 ## **🚀 About Me**
 I graduated from i.c.stars |* Milwaukee summer of 2019, Cycle 3. I wore many hats as an intern -- project manager, technical analyst, and scrum master. Leading my team as the primary developer, we were selected as the winners of Cycle 3's sponsor project. It led to us presenting it in front of C-level executives at an event called iOpener at the end of that same year.
 
-Continuing my passion in technology, I found myself working for MacGregor Partners. Working my way up, I'm now a Sr. Software Engineer for MacGregor Partners (Aquired by Accenture) and considered the resident expert at ExtJS! Current techstack: ExtJS, ReactJS, AngularJS, MOCA, MS SQL, C, `and Java.
+Continuing my passion in technology, I found myself working for MacGregor Partners. Working my way up, I'm now a Sr. Software Engineer for MacGregor Partners (Aquired by Accenture) and considered the resident expert at ExtJS! Current techstack: ExtJS, ReactJS, AngularJS, MOCA, MS SQL, C, and Java.
 
 
 ## **License**
